@@ -1,0 +1,41 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("/assets/loginimg.jpg");
+    background-size:cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   align-items: center;
+   justify-content: center;
+}
+
+marquee{
+    height: 50px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color:black;
+}
+.books{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#book{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 220px;
+    row-gap: 20px;
+    height: 400px;  
+    background-color: red;
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

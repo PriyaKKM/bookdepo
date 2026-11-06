@@ -1,0 +1,16 @@
+<div class="container">
+    
+<marquee>
+    Welcome To Bookdepo
+</marquee>
+   <div class="books" >
+<div id="book" *ngFor="let i of  books">
+    <img src={{i.img}} >  
+    <p>{{i.title}}</p>
+    <a href={{i.src}}>read me</a>
+</div>
+
+
+   </div> 
+   <button (click)="signOut()">Logout</button>
+</div>

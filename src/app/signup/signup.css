@@ -1,0 +1,55 @@
+.container{
+   
+   background-image: url("/assets/library.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width: 1500px;
+   height: 750px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.form{
+    background-color: white;
+    width: 550px; 
+padding: 30px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+column-gap: 20px;
+}
+label{
+    font-size: 22px;
+    float: left;
+}
+
+input{
+    font-size: 22px;
+    padding-left: 10px;
+    border-radius: 12px;
+    width: 350px;
+    height: 33px;
+    float: right;
+}
+button{
+    height: 35px;
+    width: 75px;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    color:rgb(249, 122, 122);
+}
+h2{
+    color: rgb(141, 249, 113);
+}
+a{
+  font-size: 18px ;  
+}

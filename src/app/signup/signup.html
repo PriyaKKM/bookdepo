@@ -1,0 +1,23 @@
+<div class="container">
+<div class="form">
+<div>
+    <h1>Bookdepo</h1>
+    <h2>Create your account</h2>
+
+</div>
+<div>
+    <label>Email</label>
+    <input type="email" placeholder="enter your email address" [(ngModel)]="email">
+    <br>
+    <br>
+    <label>Password:</label>
+    <input type="password" placeholder="enter your password" [(ngModel)]="password">
+    <br>
+    <br>
+   <button (click)="onSignup()">Signup</button>
+   <div>
+    <a href="/login">Already have an account?</a>
+    </div>
+    </div>
+</div>  
+</div>
